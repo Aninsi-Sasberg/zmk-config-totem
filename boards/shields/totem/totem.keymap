@@ -47,7 +47,8 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-    }
+    };
+
     keymap {
       compatible = "zmk,keymap";
       AL {
