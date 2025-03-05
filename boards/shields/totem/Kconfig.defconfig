@@ -7,6 +7,9 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_SPLIT
+    default y
+
 endif
 
 
@@ -17,13 +20,16 @@ config ZMK_SPLIT
 
 endif
 
+if SHIELD_TOTEM_NORM_LEFT
 
-if SHIELD_TOTEM_DONGLE || SHIELD_TOTEM_NORM_LEFT
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 1
 
-config ZMK_SPLIT
-    default y
+endif
 
-config ZMK_BLE_ROLE_CENTRAL
-    default y
+if SHIELD_TOTEM_DONGLE
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
 
 endif
