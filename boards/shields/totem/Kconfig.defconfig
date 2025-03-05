@@ -1,31 +1,31 @@
-# all
-config ZMK_USB
-    default y
+# # all
+# config ZMK_USB
+#     default y
 
-# dongle
-if SHIELD_TOTEM_DONGLE
-
-config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 2
-
-endif
-
-# norm_left
-if SHIELD_TOTEM_NORM_LEFT
-
-config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 1
-
-endif
+# # dongle
+# if SHIELD_TOTEM_DONGLE
+#
+# config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+#     default 2
+#
+# endif
+#
+# # norm_left
+# if SHIELD_TOTEM_NORM_LEFT
+#
+# config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+#     default 1
+#
+# endif
 
 # central/main
 if SHIELD_TOTEM_DONGLE || SHIELD_TOTEM_NORM_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "SASTOT"
+    default "SAS-TOT"
 
-config ZMK_BLE
-	default y
+# config ZMK_BLE
+# 	default y
 
 config ZMK_SPLIT
     default y
