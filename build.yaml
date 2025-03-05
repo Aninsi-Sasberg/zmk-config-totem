@@ -20,8 +20,12 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: totem_left
+    shield: totem_normal_left
   - board: seeeduino_xiao_ble
-    shield: totem_right
+    shield: totem_normal_right
+  - board: seeeduino_xiao_ble
+    shield: totem_dongle_left
+  - board: seeeduino_xiao_ble
+    shield: totem_dongle_right
   - board: seeeduino_xiao_ble
     shield: totem_dongle
