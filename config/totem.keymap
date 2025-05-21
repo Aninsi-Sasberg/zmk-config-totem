@@ -54,19 +54,20 @@
       AL {
           label = "ALPHA";
           bindings = <
-                  &kp J       &kp L       &bt BT_NXT           &bt BT_CLR           &out OUT_TOG                         &kp W           &kp B         &kp D       &kp G       &kp Y
+                  /* &kp J       &kp L       &bt BT_NXT      &bt BT_CLR      &out OUT_TOG                  &kp W           &kp B         &kp D       &kp G       &kp Y */
+                  &kp J       &kp L       &kp U           &kp A           &kp A                         &kp W           &kp B         &kp D       &kp G       &kp Y
                   &hm LGUI C  &hm LALT R  &hm LCTRL I     &hm LSHIFT E    &kp O                         &kp M           &hm RSHFT N   &hm RCTRL T &hm RALT S  &hm RGUI H
           &kp Z   &kp V       &kp X       &kp DE_U_UMLAUT &kp DE_A_UMLAUT &kp DE_O_UMLAUT               &kp P           &kp F         &kp COMMA   &kp DOT     &lt 0 K     &kp DE_SZ
-                                          &lt 0 TAB       &lt 0 SPACE     &lt 0 ESCAPE                  &lt 0 DELETE    &lt 0 ENTER   &lt 0 BACKSPACE
+                                          &lt 0 TAB       &lt 1 SPACE     &lt 3 ESCAPE                  &lt 1 DELETE    &lt 0 ENTER   &lt 3 BACKSPACE
           >;
-      };
+
       SYM {
           label = "SYMBOLS";
           bindings = <
                   &kp J         &kp UNDER     &kp LBKT        &kp RBKT        &kp CARET                     &kp EXCL        &kp LT          &kp GT          &kp EQUAL       &kp AMPS
                   &hm LGUI BSLH &hm LALT FSLH &hm LCTRL LBRC  &hm LSHIFT RBRC &kp STAR                      &kp QMARK       &hm RSHFT LPAR  &hm RCTRL RPAR  &hm RALT MINUS  &hm RGUI COLON
           &kp AT  &kp HASH      &kp DLLR      &kp PIPE        &kp TILDE       &kp GRAVE                     &kp PLUS        &kp PRCNT       &kp DQT         &kp SQT         &lt 0 SEMI      &kp DE_SZ
-                                              &trans       &trans     &trans                  &trans    &trans    &trans
+                                              &trans          &trans          &trans                        &trans          &trans          &trans
           >;
       };
       SYS {
@@ -75,7 +76,7 @@
                   &kp J         &kp UNDER     &kp LBKT        &kp RBKT        &kp CARET                     &kp EXCL        &kp C_BRI_UP          &kp C_BRI_DN          &kp EQUAL       &kp AMPS
                   &hm LGUI BSLH &hm LALT FSLH &hm LCTRL LC(LS(TAB))  &hm LSHIFT LC(TAB) &kp STAR            &trans       &hm RSHFT C_VOL_DN  &hm RCTRL C_VOL_UP  &hm RALT C_MUTE  &hm RGUI COLON
           &kp AT  &kp HASH      &kp DLLR      &kp PIPE        &kp TILDE       &kp GRAVE                     &kp PLUS        &kp PRCNT       &kp DQT         &kp SQT         &lt 0 SEMI      &kp DE_SZ
-                                              &lt 0 TAB       &lt 0 SPACE     &lt 0 ESCAPE                  &lt 0 DELETE    &lt 0 ENTER     &lt 0 BACKSPACE
+                                              &trans          &trans          &trans                        &trans          &trans          &trans
           >;
       };
   };
