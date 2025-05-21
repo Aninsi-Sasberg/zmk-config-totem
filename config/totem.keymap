@@ -60,7 +60,7 @@
           &kp Z   &kp V       &kp X       &kp DE_U_UMLAUT &kp DE_A_UMLAUT &kp DE_O_UMLAUT               &kp P           &kp F         &kp COMMA   &kp DOT     &lt 0 K     &kp DE_SZ
                                           &lt 0 TAB       &lt 1 SPACE     &lt 3 ESCAPE                  &lt 1 DELETE    &lt 0 ENTER   &lt 3 BACKSPACE
           >;
-
+      };
       SYM {
           label = "SYMBOLS";
           bindings = <
